@@ -1,0 +1,3 @@
+C:/Github/Projects/3DShooter/build/CMakeFiles/3DShooter.dir
+C:/Github/Projects/3DShooter/build/CMakeFiles/ALL_BUILD.dir
+C:/Github/Projects/3DShooter/build/CMakeFiles/ZERO_CHECK.dir
