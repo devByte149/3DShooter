@@ -1,16 +1,84 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Github\Projects\3DShooter\Source\main.cpp">
+    <ClCompile Include="C:\Github\Projects\3DShooter\build\CMakeFiles\3DShooter.dir\cmake_pch.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Github\Projects\3DShooter\Source\DRAW\LevelComponents.cpp">
+      <Filter>Source\DRAW</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Github\Projects\3DShooter\Source\DRAW\VulkanBuffers.cpp">
+      <Filter>Source\DRAW</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Github\Projects\3DShooter\Source\DRAW\VulkanRenderer.cpp">
+      <Filter>Source\DRAW</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Github\Projects\3DShooter\Source\main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Github\Projects\3DShooter\Source\DRAW\DrawComponents.h">
+      <Filter>Source\DRAW</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Github\Projects\3DShooter\gateware-main\Gateware.h">
+      <Filter>gateware-main</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Github\Projects\3DShooter\entt-3.13.1\single_include\entt\entt.hpp">
+      <Filter>entt-3.13.1\single_include\entt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Github\Projects\3DShooter\inifile-cpp-master\include\inicpp.h">
+      <Filter>inifile-cpp-master\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Github\Projects\3DShooter\build\CMakeFiles\3DShooter.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Github\Projects\3DShooter\build\CMakeFiles\3DShooter.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Github\Projects\3DShooter\build\CMakeFiles\3DShooter.dir\MinSizeRel\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Github\Projects\3DShooter\build\CMakeFiles\3DShooter.dir\RelWithDebInfo\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Github\Projects\3DShooter\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="C:\Github\Projects\3DShooter\defaults.ini" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{2FE4434B-1DBF-35D5-A8F0-E27DAEA7F3CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{80BBB60C-3E8E-38D0-8459-FD5BC6001367}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{49493D58-A5E6-3061-B8C3-AAB59BA6597C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\DRAW">
+      <UniqueIdentifier>{C28ABB97-4F0C-3B22-9BBB-9154C105388E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entt-3.13.1">
+      <UniqueIdentifier>{9A99A7BF-EE65-3CD4-9339-85593D53C803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entt-3.13.1\single_include">
+      <UniqueIdentifier>{DE98C861-CE5C-332D-ABA3-D37FCFEF630F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entt-3.13.1\single_include\entt">
+      <UniqueIdentifier>{8267CD9E-6F7C-3588-B8DF-3993434CF76F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gateware-main">
+      <UniqueIdentifier>{8B1392E8-BC0B-33BE-9697-56022B933029}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inifile-cpp-master">
+      <UniqueIdentifier>{B6A337B5-A684-3269-9A04-586AF39332E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inifile-cpp-master\include">
+      <UniqueIdentifier>{AA892CA0-3470-3666-AE23-CF4AA03306FD}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,20 +1,18 @@
 #define GATEWARE_ENABLE_CORE // Enables Gateware basics
 #define GATEWARE_ENABLE_SYSTEM
+#include "./DRAW/VulkanRenderer.cpp"
 #define GATEWARE_ENABLE_GRAPHICS // Enables Vulkan Surface
 #include "../gateware-main/Gateware.h"
-#include <entt/entt.hpp>
+#include "../entt-3.13.1/single_include/entt/entt.hpp"
 #include <iostream>
 
 int main() {
-    // Test EnTT
-    entt::registry registry;
-    auto entity = registry.create();
-    std::cout << "EnTT is working! Entity ID: " << (uint32_t)entity << std::endl;
-
-    // Test Gateware Window
+    // Initialize Gateware Window
     GW::SYSTEM::GWindow win;
     if (G_PASS(win.Create(0, 0, 800, 600, GW::SYSTEM::GWindowStyle::WINDOWEDBORDERED))) {
         win.SetWindowName("Vulkan 3D Shooter - Phase 1");
+
+        entt::registry world; // Create entt registry for world data
         
         // Simple Loop to keep window open
         bool running = true;
